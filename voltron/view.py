@@ -436,6 +436,7 @@ class TerminalView (VoltronView):
 
     def exit(self):
         self.cleanup()
+        os.system('stty sane')
         os._exit(0)
 
     @requires_async

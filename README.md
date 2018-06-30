@@ -1,3 +1,9 @@
+Forking reason
+--------------
+
+When using this I accidently fell into a problem that the terminal broke ('echo' was closed).
+I made a small, ugly patch to it (whatever it **really** works).
+
 Voltron
 =======
 
